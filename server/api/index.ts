@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
 import { createAndSaveUser, getAllUsers } from "../domain/user";
-import { sendErrorToClient } from "../../error";
+import { sendErrorToClient } from "../error";
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 
